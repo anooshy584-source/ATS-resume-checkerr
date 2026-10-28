@@ -35,7 +35,8 @@ def get_setting(name, default=""):
 api_key = get_setting("GROQ_API_KEY")
 model = get_setting(
     "GROQ_MODEL",
-    "llama-3.3-70b-versatile",
+    "openai/gpt-oss-120b",
+)
 )
 
 with st.expander("Check Groq API connection"):
