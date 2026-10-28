@@ -37,7 +37,7 @@ model = get_setting(
     "GROQ_MODEL",
     "openai/gpt-oss-120b",
 )
-)
+
 
 with st.expander("Check Groq API connection"):
     if not api_key:
